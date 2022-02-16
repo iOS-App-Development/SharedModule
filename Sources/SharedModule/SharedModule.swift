@@ -1,4 +1,4 @@
-@_exported import Foundation
+import Foundation
 @_exported import APIClient
 
 public struct SharedModule {
