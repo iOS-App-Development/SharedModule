@@ -7,11 +7,11 @@ public struct SharedModule {
     public init() {
     }
 }
-extension SharedModule:SharedModuleAPI
+extension SharedModule:ServiceAPI
 {
-    func load() {
+    public func load() {
     }
     
-    func unload() {
+    public func unload() {
     }
 }
